@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>mh5_common</name>
-  <version>1.D.1</version>
+  <version>1.4.1</version>
   <description>
     Common ROS packages for the MH5 robot (meta package)
   </description>
