@@ -1,0 +1,11 @@
+string  name        # Name of joint / group
+bool    state       # State desired True = Activated, False = Deactivated
+---
+bool    success     # Activation request was successful
+string  message     # A message in case there is something to report
+
+# Please note that this service is asynchronously in the sense that it will
+# request to the HW Interface to change the torque for those devices but
+# will not receive confirmation that this happened as the actual communication
+# with the servos is done periodically by a Dynamixel loop running in the
+# HW interface
