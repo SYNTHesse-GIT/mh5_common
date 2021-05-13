@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>mh5_common</name>
+  <version>1.D.1</version>
+  <description>
+    Common ROS packages for the MH5 robot (meta package)
+  </description>
+  <license>Apache 2.0</license>
+  <maintainer email="alex.sonea@gmail.com">sonel</maintainer>
+  <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>mh5_description</exec_depend>
+  <export><metapackage/></export>
+</package>
