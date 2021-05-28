@@ -7,9 +7,10 @@ find_package(catkin REQUIRED COMPONENTS
   message_generation
 )
 
-#add_message_files(
-#  FILES
-#)
+add_message_files(
+  FILES
+  DeviceStatus.msg
+)
 
 add_service_files(
   FILES
