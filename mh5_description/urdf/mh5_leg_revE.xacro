@@ -271,6 +271,14 @@
             </inertial>
         </link>
 
+        <joint name="${side}_sole_fixed" type="fixed">
+            <parent link="${side}_foot"/>
+            <child link="${side}_landing"/>
+            <origin xyz="0.0 0.0 -0.03825" rpy="0 0 0"/>
+        </joint>
+
+        <link name="${side}_landing" />
+
     </xacro:macro>
 
 </robot>
